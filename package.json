@@ -22,7 +22,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://yourusername.github.io/saunaforge",
+  "homepage": "https://artklassen.github.io/saunaforge",
   "eslintConfig": {
     "extends": [
       "react-app",
