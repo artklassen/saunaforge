@@ -1,0 +1,7 @@
+// NEW - This is correct
+module.exports = {
+  plugins: {
+    '@tailwindcss/postcss': {},  // ← Note the @ symbol
+    autoprefixer: {},
+  },
+}
