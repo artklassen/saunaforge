@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/saunaforge/static/css/main.810de084.css",
-    "main.js": "/saunaforge/static/js/main.c9702955.js",
+    "main.css": "/saunaforge/static/css/main.eb7dfa0a.css",
+    "main.js": "/saunaforge/static/js/main.84a25a3d.js",
     "static/js/453.c9506ddb.chunk.js": "/saunaforge/static/js/453.c9506ddb.chunk.js",
     "index.html": "/saunaforge/index.html",
-    "main.810de084.css.map": "/saunaforge/static/css/main.810de084.css.map",
-    "main.c9702955.js.map": "/saunaforge/static/js/main.c9702955.js.map",
+    "main.eb7dfa0a.css.map": "/saunaforge/static/css/main.eb7dfa0a.css.map",
+    "main.84a25a3d.js.map": "/saunaforge/static/js/main.84a25a3d.js.map",
     "453.c9506ddb.chunk.js.map": "/saunaforge/static/js/453.c9506ddb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.810de084.css",
-    "static/js/main.c9702955.js"
+    "static/css/main.eb7dfa0a.css",
+    "static/js/main.84a25a3d.js"
   ]
 }
