@@ -547,7 +547,7 @@ const SessionTimer = ({ onSessionComplete }) => {
       </div>
 
       <div className="space-y-4 relative z-10">
-        <div className="grid grid-cols-3 gap-4 text-sm">
+        <div className="grid grid-cols-2 gap-4 text-sm mb-4">
           <div className="bg-black bg-opacity-30 backdrop-blur-sm rounded-xl p-4 border border-white/10">
             <label className="block text-white/80 mb-2 font-medium">Rounds</label>
             <input
@@ -560,6 +560,21 @@ const SessionTimer = ({ onSessionComplete }) => {
               disabled={isRunning}
             />
           </div>
+          <div className="bg-black bg-opacity-30 backdrop-blur-sm rounded-xl p-4 border border-white/10">
+            <label className="block text-white/80 mb-2 font-medium">Rest (min)</label>
+            <input
+              type="number"
+              min="1"
+              max="10"
+              value={settings.restDuration}
+              onChange={(e) => setSettings(prev => ({ ...prev, restDuration: parseInt(e.target.value) }))}
+              className="w-full bg-white/10 border border-white/30 rounded-lg px-3 py-2 text-white placeholder-white/50 focus:border-white/50 focus:outline-none transition-colors"
+              disabled={isRunning}
+            />
+          </div>
+        </div>
+
+        <div className="grid grid-cols-2 gap-4 text-sm">
           <div className="bg-black bg-opacity-30 backdrop-blur-sm rounded-xl p-4 border border-white/10">
             <label className="block text-white/80 mb-2 font-medium">Heat (min)</label>
             <input
